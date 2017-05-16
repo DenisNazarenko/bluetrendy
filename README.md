@@ -5,12 +5,12 @@
 ````
 $ git clone https://github.com/DenisNazarenko/bluetrendy.git
 ````
-### Build
+### Install
 ````
 $ cd bluetrendy
 $ yarn
 ````
-### Run
+### Build & Run
 ````
 $ yarn dev
 ````
