@@ -5,7 +5,8 @@ nav(class='navbar navbar-default')
     div(class='collapse navbar-collapse')
       ul(class='nav navbar-nav navbar-right')
         li
-          button(type='button' class='btn btn-primary navbar-btn' onclick="window.location = '/login';") Log in
+          button(type='button' class='btn btn-primary navbar-btn' onclick="window.location = '/login';" style='margin-right: 10px;') Log in
+          button(type='button' class='btn btn-primary navbar-btn' onclick="window.location = '/logout';") Log out
           div(class='modal fade' id='loginModal' tabindex='-1' role='dialog' aria-labelledby='loginModalLabel')
             div(class='modal-dialog modal-sm' role='document')
               div(class='modal-content')
